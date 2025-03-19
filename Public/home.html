@@ -12,25 +12,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="app-container">
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <div class="sidebar-header">
+ 
+  <aside class="sidebar">
+    <div class="sidebar-header">
+        <!-- Logo should be at the top -->
+        <div class="user-info">
+            <img src="../SOP Bot Logo.png" alt="SOP Assistant Logo" class="chatbot-logo">
+            <span>SOP Assistant</span>
+        </div>
         <button class="new-chat-btn">
-          <span><i class="fa-solid fa-plus"></i> New chat</span>
+            <span><i class="fa-solid fa-plus"></i> New chat</span>
         </button>
-      </div>
+    </div>
 
-      <aside class="sidebar-header">
-        <!-- Move the logo here at the top -->
-        <div class="sidebar-header"> 
-            <div class="user-info">
-              <img src="SOP Bot Logo.png" alt="SOP Assistant Logo" class="chatbot-logo">
-
+    <div class="sidebar-content">
+        <div class="chat-history">
+            <div class="history-heading">History</div>
+            <div class="history-item active">
+                <i class="fa-regular fa-message"></i>
                 <span>SOP Assistant</span>
             </div>
+            <div class="history-item">
+                <i class="fa-regular fa-message"></i>
+                <span>Customer Onboarding Process</span>
+            </div>
+            <div class="history-item">
+                <i class="fa-regular fa-message"></i>
+                <span>Refund & Cancellation Policy</span>
+            </div>
         </div>
-    
+    </div>
+</aside>
+
 
       <div class="sidebar-content">
         <div class="chat-history">
